@@ -1,0 +1,64 @@
+element {
+    --main-color: rgb(0, 47, 108);
+}
+
+body,
+html {
+    height: 100%;
+    border-color: var(--main-color);
+}
+
+.login {
+    margin-top: 5em;
+    background-color: rgb(0, 47, 108);
+}
+
+#username,
+#pwd {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.resume {
+    margin-top: 5em;
+}
+
+
+/*
+GALERIE
+*/
+
+.galerie {
+    padding: 80px;
+}
+
+.galerie img {
+    width: 300px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.galerie img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.footer-information {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-information ul {
+    padding: 0;
+}
+
+.footer-information ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer button {
+    margin-top: 15px;
+    justify-content: center;
+}
